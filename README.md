@@ -17,9 +17,9 @@ Installing the application is simple. First, clone this repository to your local
 
 `git clone https://github.com/mikeroit/Flashcards`
 
-Next, move into the repository, and run the installation script:
+Next, move into the rust project, and run the installation script:
 
-`cd Flashcards`
+`cd Flashcards/flashcards`
 
 `sh install.sh`
 
