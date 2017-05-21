@@ -93,10 +93,12 @@ fn main() {
 
             //display the card
             rustbox.clear();
-            rustbox.print(1, 1, rustbox::RB_BOLD, Color::Green, Color::Black, &card.definition); 
-            if show_answer { rustbox.print(1, 3, rustbox::RB_BOLD, Color::Blue, Color::Black, &card.term); }
-            rustbox.print(50, 1, rustbox::RB_BOLD, Color::Yellow, Color::Black, &format!("Correct: {}", correct));
-            rustbox.print(50, 3, rustbox::RB_BOLD, Color::Yellow, Color::Black, &format!("Remaining: {}", remaining));
+            rustbox.print(1, 1, rustbox::RB_BOLD, Color::Default, Color::Default, "USAGE: (q)=quit  (w)=wrong  (r)=right (<space>)=toggle answer"); 
+            rustbox.print(1, 3, rustbox::RB_BOLD, Color::Default, Color::Default, "-------------------------------------------------------------"); 
+            rustbox.print(1, 5, rustbox::RB_BOLD, Color::Green, Color::Black, &card.definition); 
+            if show_answer { rustbox.print(1, 7, rustbox::RB_BOLD, Color::Blue, Color::Black, &card.term); }
+            rustbox.print(50, 5, rustbox::RB_BOLD, Color::Yellow, Color::Black, &format!("Correct: {}", correct));
+            rustbox.print(50, 7, rustbox::RB_BOLD, Color::Yellow, Color::Black, &format!("Remaining: {}", remaining));
             rustbox.present();
 
             match rustbox.poll_event(false) {
