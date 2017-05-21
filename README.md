@@ -6,13 +6,17 @@ The application is compatible with study sets exported from Quizlet
 To install this app, you need to build it from source. Make sure you have Rust and Cargo installed on your machine. 
 For most linux users, this can be done with two commands in the terminal:
 `curl https://sh.rustup.rs -sSf | sh`
+
 `sudo apt-get install cargo`
+
+For more information, see https://www.rustup.rs/
 
 Installing the application is simple. First, clone this repository to your local machine:
 `git clone https://github.com/mikeroit/Flashcards`
 
 Next, move into the repository, and run the installation script:
 `cd Flashcards`
+
 `sh install.sh`
 
 # Usage
