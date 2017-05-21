@@ -30,9 +30,13 @@ Proper flashcard files will be formatted as follows:
 
 # Quizlet compatablility 
 To use an existing study set from Quizlet, open the study set in your browser, and select the 'more' button (button with 3 dots below the name of the study set)
+
 Choose 'Export'
+
 Under the column 'Between term and definition', specify the '-' character
+
 Under the column 'Between rows', specify the 'New line' option
+
 Now you can copy/paste the output to a new text file.
 
 
