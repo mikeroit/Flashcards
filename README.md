@@ -8,8 +8,6 @@ For most linux users, this can be done with two commands in the terminal:
 
 `curl https://sh.rustup.rs -sSf | sh`
 
-`sudo apt-get install cargo`
-
 For more information, see https://www.rustup.rs/
 
 # Installation (Linux only... for now)
