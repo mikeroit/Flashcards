@@ -2,7 +2,7 @@
 This application is a terminal-based flashcards application written in Rust Language
 The application is compatible with study sets exported from Quizlet
 
-# Installation (Linux only... for now)
+# Make sure Rust is installed on your machine
 To install this app, you need to build it from source. Make sure you have Rust and Cargo installed on your machine. 
 For most linux users, this can be done with two commands in the terminal:
 
@@ -12,6 +12,7 @@ For most linux users, this can be done with two commands in the terminal:
 
 For more information, see https://www.rustup.rs/
 
+# Installation (Linux only... for now)
 Installing the application is simple. First, clone this repository to your local machine:
 
 `git clone https://github.com/mikeroit/Flashcards`
